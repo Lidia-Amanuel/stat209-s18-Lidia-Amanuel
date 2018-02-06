@@ -1,0 +1,41 @@
+---
+title: "My First Mark Down File"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+
+library(dplyr)
+library(readr)
+library(ggplot2)
+library(forcats)
+```
+## Reading the Data
+The data set shown describes each student's six favorite restaurants.Included is the name, location by state, favorite meal, cost with tax and gratuity, how many times the restaurant is visited per year, and the last time the restaurant was visited.
+```{r}
+class <- read.csv("https://raw.githubusercontent.com/URstats/stat209-s18-Lidia-Amanuel/master/fav_restaurants.csv")
+```
+## Plotting the Data
+
+The chart below describes the various cuisines that students of STAT 209 describe as their favorite and how many times that cuisine appears. 
+```{r}
+ggplot(class, aes(cuisine)) +
+  geom_bar() +
+  coord_flip()
+```
+
+The next data set shows the correlation between yearly visits and cost per person. It is observed that cost and visits are **inversley related.** The less the cost of the meal is the more the student is willing to visit the named restuarant.
+```{r}
+ggplot(class, aes(yearly_visits, cost_per_person)) + geom_point()
+```
+
+The last plot shows the different types of cuisines and how common they are in the locations supplied by students. The six most frequent cities are plotted by name, and all others are represented by the **other** category
+```{r}
+ggplot(class, aes(cuisine, fct_lump(location, n=6))) +
+  geom_point() + coord_flip()
+```
+
+
