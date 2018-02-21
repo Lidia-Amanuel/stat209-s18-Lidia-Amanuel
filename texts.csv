@@ -1,1 +1,77 @@
-conversation_name,number_of_people,last_message_date,type,text_again_tmrwBachelorette Party,5,16-Feb,friends,yesMike,2,16-Feb,family,yesDr.Jones,2,16-Feb,school ,noSara and Rutie,3,16-Feb,friends,yesAkhawaatt,8,16-Feb,friends,noKidest,2,16-Feb,friends,noLidya,2,16-Feb,friends,yesRutie Tesfay Tsigiemariam,2,16-Feb,friends,yesSara Ayele Welela,2,16-Feb,friends,yesReem,2,16-Feb,friends,noWeleteHanna,2,15-Feb,friends,yesDn Jeremiah,2,15-Feb,friends,yesChurch Youth,9,15-Feb,church,yesMeron ,2,15-Feb,church,noGelila,2,15-Feb,church,noSusan,2,15-Feb,friends,yesSydney,2,15-Feb,acquiantance,noSamantha,2,15-Feb,church,noBanna,2,15-Feb,church,noBlen,2,15-Feb,family,noXenia,2,15-Feb,church,noAhat,2,15-Feb,friends,yesSariah,2,15-Feb,friends,noDE and Sara and Rutie,4,14-Feb,friends,noSuz,2,14-Feb,friends,noLexi and Unitha,3,14-Feb,friends,noDellila,22,14-Feb,friends,noDn Yemane,2,13-Feb,church,noDajanae,2,12-Feb,acquiantance,noTYOM,6,11-Feb,church,noKisanet CA,2,11-Feb,church,noDJ,2,11-Feb,friends,noMidwest Ambassadors,11,11-Feb,church,yesYohana,2,11-Feb,church,noLidya M,2,11-Feb,church,noSesen,2,11-Feb,friends,yesDanait Yonas,2,11-Feb,church,noDestiny,2,11-Feb,acquiantance,noTsegish,2,11-Feb,family,yesWintana,2,11-Feb,friends,yesDn TesfaEgzi,2,10-Feb,church,noPriscilla,2,10-Feb,school ,noLesly,2,10-Feb,school ,noHelen Kifle,2,10-Feb,church,noSesen and Yohana and Suz,4,10-Feb,church,noArsema and WeleteHanna,3,10-Feb,church,noSesen and Dn TesfaEgzi,3,10-Feb,church,noTsegish and Mike,3,10-Feb,family,yesMike and Nati and Yoni,4,9-Feb,family,yesEast Coast Ambassadors,9,9-Feb,church,noSenait,2,9-Feb,friends,yesElsa,2,9-Feb,church,noNatica,2,9-Feb,acquiantance,noLuwam ,2,9-Feb,church,noRosina and WeleteHanna,3,9-Feb,church,noLexi ,2,9-Feb,acquiantance,noAden,2,8-Feb,acquiantance,noKaykay,2,7-Feb,school ,noMike Tedla,2,6-Feb,church,noGhenet,2,5-Feb,church,noAlaa,2,4-Feb,friends,yesNany,2,4-Feb,family,yesTsegish and Nany,3,4-Feb,family,yesZobawi Gubae,12,4-Feb,church,noAser,2,4-Feb,church,noYash,2,4-Feb,school ,noMimi,2,3-Feb,church,noMerhawet,2,3-Feb,church,yesSesen and Luwam,3,3-Feb,church,noDn Healer,2,2-Feb,friends,yesSusan and Sesen,3,2-Feb,friends,yesDitta,2,2-Feb,friends,noYoni,2,2-Feb,family,yesLidia,1,2-Feb,family,yesEgziharya Yilma,2,2-Feb,church,noNatsnet and Senait,2,1-Feb,friends,yes
+conversation_name,number_of_people,last_message_date,type,text_again_tmrw
+Bachelorette Party,5,16-Feb,friends,yes
+Mike,2,16-Feb,family,yes
+Dr.Jones,2,16-Feb,school ,no
+Sara and Rutie,3,16-Feb,friends,yes
+Akhawaatt,8,16-Feb,friends,no
+Kidest,2,16-Feb,friends,no
+Lidya,2,16-Feb,friends,yes
+Rutie Tesfay Tsigiemariam,2,16-Feb,friends,yes
+Sara Ayele Welela,2,16-Feb,friends,yes
+Reem,2,16-Feb,friends,no
+WeleteHanna,2,15-Feb,friends,yes
+Dn Jeremiah,2,15-Feb,friends,yes
+Church Youth,9,15-Feb,church,yes
+Meron ,2,15-Feb,church,no
+Gelila,2,15-Feb,church,no
+Susan,2,15-Feb,friends,yes
+Sydney,2,15-Feb,acquiantance,no
+Samantha,2,15-Feb,church,no
+Banna,2,15-Feb,church,no
+Blen,2,15-Feb,family,no
+Xenia,2,15-Feb,church,no
+Ahat,2,15-Feb,friends,yes
+Sariah,2,15-Feb,friends,no
+DE and Sara and Rutie,4,14-Feb,friends,no
+Suz,2,14-Feb,friends,no
+Lexi and Unitha,3,14-Feb,friends,no
+Dellila,2,14-Feb,friends,no
+Dn Yemane,2,13-Feb,church,no
+Dajanae,2,12-Feb,acquiantance,no
+TYOM,6,11-Feb,church,no
+Kisanet CA,2,11-Feb,church,no
+DJ,2,11-Feb,friends,no
+Midwest Ambassadors,11,11-Feb,church,yes
+Yohana,2,11-Feb,church,no
+Lidya M,2,11-Feb,church,no
+Sesen,2,11-Feb,friends,yes
+Danait Yonas,2,11-Feb,church,no
+Destiny,2,11-Feb,acquiantance,no
+Tsegish,2,11-Feb,family,yes
+Wintana,2,11-Feb,friends,yes
+Dn TesfaEgzi,2,10-Feb,church,no
+Priscilla,2,10-Feb,school ,no
+Lesly,2,10-Feb,school ,no
+Helen Kifle,2,10-Feb,church,no
+Sesen and Yohana and Suz,4,10-Feb,church,no
+Arsema and WeleteHanna,3,10-Feb,church,no
+Sesen and Dn TesfaEgzi,3,10-Feb,church,no
+Tsegish and Mike,3,10-Feb,family,yes
+Mike and Nati and Yoni,4,9-Feb,family,yes
+East Coast Ambassadors,9,9-Feb,church,no
+Senait,2,9-Feb,friends,yes
+Elsa,2,9-Feb,church,no
+Natica,2,9-Feb,acquiantance,no
+Luwam ,2,9-Feb,church,no
+Rosina and WeleteHanna,3,9-Feb,church,no
+Lexi ,2,9-Feb,acquiantance,no
+Aden,2,8-Feb,acquiantance,no
+Kaykay,2,7-Feb,school ,no
+Mike Tedla,2,6-Feb,church,no
+Ghenet,2,5-Feb,church,no
+Alaa,2,4-Feb,friends,yes
+Nany,2,4-Feb,family,yes
+Tsegish and Nany,3,4-Feb,family,yes
+Zobawi Gubae,12,4-Feb,church,no
+Aser,2,4-Feb,church,no
+Yash,2,4-Feb,school ,no
+Mimi,2,3-Feb,church,no
+Merhawet,2,3-Feb,church,yes
+Sesen and Luwam,3,3-Feb,church,no
+Dn Healer,2,2-Feb,friends,yes
+Susan and Sesen,3,2-Feb,friends,yes
+Ditta,2,2-Feb,friends,no
+Yoni,2,2-Feb,family,yes
+Lidia,1,2-Feb,family,yes
+Egziharya Yilma,2,2-Feb,church,no
+Natsnet and Senait,2,1-Feb,friends,yes
