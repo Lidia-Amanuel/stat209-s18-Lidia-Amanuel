@@ -1,0 +1,67 @@
+---
+title: "Lidia's Social Life, as seen through her text history."
+author: "Lidia Amanuel"
+output: html_notebook
+---
+
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(plotly)
+```
+
+# Lidia's Social Life, as seen through her text history
+
+## This data follows the texting patterns of Lidia Amanuel, the author of this project.  I used the most recent 75 interactions on my text log in order to gage the most important players in my social life as texting is a primary mode of communication for me. This research inquiry has become interesting for me, as texting has only recently taken this primary role in my life. However, even in a quick review of my texts I can see that I now use it for my most important transfers of information with those that are within and outside of my circle. 
+
+
+## - **conversation_name**: A character variable for the title of the conversation as it appears in iMessage. If the conversation has not been renamed and there is more than one recipient appearing in the place of the title, solely first names may be used as they appear in the contact log.
+## - **number_of_people**: A numeric variable that quantifies the number of people in the conversation including the sender (Lidia) This number must be whole number.
+## - **last_message_date**: A numeric variable describing the date of last time I received or sent a message in the conversation. The format of this date should be day-(abbreviated month). The year is not necessary for this data set, because it will be the most recent of the message logs which have all been in the year 2018.
+## - **type**: A categorical variable describing the relationship I have with the people or person in the conversation and why I am messaging them. The possible options are: friends, family, school, acquaintance, church.
+## - **text_again_tmrw**: A categorical variable that describes whether or not I would engage in this conversation again tomorrow willingly. The answer choices are yes or no.
+
+
+```{r}
+texts <- read_csv("https://raw.githubusercontent.com/URstats/stat209-s18-Lidia-Amanuel/master/texts.csv")
+```
+
+## This following bar graph shows the trend of the kinds of the conversations I have. Are they mostly group conversations? About a fourth of my conversations include more than 2 people. Although this specific graph doesn't show this, I often communicate with more than one person with people from church and my friends. The one conversation that has only one person involved is a conversation in which I had texted myself a reminder. Roughly 75 percent  of my conversations are with single recipients, including two people. This describes my tendency to survey the people in my contacts by sharing pertinent and interesting media with them an getting their feedback.
+
+
+```{r, echo=FALSE}
+ggplot(texts, aes(number_of_people)) +
+  geom_bar(color= "olivedrab", size=1) +
+  xlab("Number of People in Conversation") +
+  ylab("Count")
+```
+
+## It is always interesting to draw a parallel between one's value in people with how much they contact them. In this graph, we see a comparison for the different people I contact on the grounds of how much I contact these different groups of people. Although I expected the friends type to exhibit the most interaction, this graph shows that I mostly text people from church. This maybe because for groups like my friends and my family I prefer to call them instead of text them. Generally, for school matters I email people rather than text them as well. However, there are some instances when it is easier to just text people like my research professor. 
+
+
+```{r, echo=FALSE}
+ggplot(texts, aes(type)) +
+  geom_bar(color="blue", size=2) +
+  xlab("Type of Conversation") +
+  ylab("Count")
+```
+
+
+
+## This simple plot shows clearly that I only text my acquiantances and people from school sparingly, and given a choice I wouldn't communicate with them on a day to day basis.
+
+```{r, echo=FALSE}
+ggplot(texts, aes(type, text_again_tmrw)) +
+  geom_point(color="salmon") +
+  ylab("Text Again Tomorrow?") +
+  xlab("Type of Conversation")
+```
+
+
+## The visualizations for this data were very simple and showed clear trends of preference for certain groups of people in my life. Given more time to gather data, it would be interesting to compare the interactions in the span of a year or in comparison to the interactions of other texters. 
+
+
+
+
